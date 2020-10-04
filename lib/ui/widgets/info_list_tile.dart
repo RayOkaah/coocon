@@ -56,20 +56,12 @@ class _InfoListTileState extends State<InfoListTile> {
               size: 20,
               likeBuilder: (bool isLiked) {
                 bookmarked = isLiked;
-                if(isLiked){
-                  _firestoreService.createBookmark(widget.results);
-                  print('trashn');
-                }
                 return Icon(
                   Icons.bookmark,
                   color: isLiked ? primaryColor : Colors.grey,
                   size: 20,
                 );
               },
-              //onTap: (val){
-
-               // return true;
-             // },
             )),
       ),
     );

@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "/Users/ray/AndroidStudioProjects/cloudwalk/build/firebase_core/intermediates/incremental/mergeReleaseResources/merged.dir/values-tr/values-tr.xml",
+            "outputFile": "/Users/ray/AndroidStudioProjects/coocon/build/firebase_core/intermediates/res/merged/release/values-tr/values-tr.xml",
             "map": [
                 {
                     "source": "/Users/ray/.gradle/caches/transforms-2/files-2.1/4c0b774c09d5393feb013f0dbe753af3/play-services-base-17.0.0/res/values-tr/values.xml",
@@ -57,7 +57,7 @@
             ]
         },
         {
-            "outputFile": "/Users/ray/AndroidStudioProjects/cloudwalk/build/firebase_core/intermediates/res/merged/release/values-tr/values-tr.xml",
+            "outputFile": "/Users/ray/AndroidStudioProjects/coocon/build/firebase_core/intermediates/incremental/mergeReleaseResources/merged.dir/values-tr/values-tr.xml",
             "map": [
                 {
                     "source": "/Users/ray/.gradle/caches/transforms-2/files-2.1/4c0b774c09d5393feb013f0dbe753af3/play-services-base-17.0.0/res/values-tr/values.xml",

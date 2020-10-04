@@ -1,4 +1,4 @@
-com.example.cloudwalk
+com.example.cocoon
 attr alpha
 attr buttonSize
 attr circleCrop

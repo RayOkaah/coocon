@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "/Users/ray/AndroidStudioProjects/cloudwalk/build/cloud_firestore/intermediates/res/merged/release/values-km/values-km.xml",
+            "outputFile": "/Users/ray/AndroidStudioProjects/coocon/build/cloud_firestore/intermediates/incremental/mergeReleaseResources/merged.dir/values-km/values-km.xml",
             "map": [
                 {
                     "source": "/Users/ray/.gradle/caches/transforms-2/files-2.1/3aaf6e5219b7f981ec263df919098c6f/core-1.1.0/res/values-km/values-km.xml",
@@ -57,7 +57,7 @@
             ]
         },
         {
-            "outputFile": "/Users/ray/AndroidStudioProjects/cloudwalk/build/cloud_firestore/intermediates/incremental/mergeReleaseResources/merged.dir/values-km/values-km.xml",
+            "outputFile": "/Users/ray/AndroidStudioProjects/coocon/build/cloud_firestore/intermediates/res/merged/release/values-km/values-km.xml",
             "map": [
                 {
                     "source": "/Users/ray/.gradle/caches/transforms-2/files-2.1/3aaf6e5219b7f981ec263df919098c6f/core-1.1.0/res/values-km/values-km.xml",

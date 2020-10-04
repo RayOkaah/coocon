@@ -1,18 +1,18 @@
 1<?xml version="1.0" encoding="utf-8"?>
 2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
-3    package="com.example.cloudwalk"
+3    package="com.example.cocoon"
 4    android:versionCode="1"
 5    android:versionName="1.0.0" >
 6
 7    <uses-sdk
 8        android:minSdkVersion="16"
-8-->/Users/ray/AndroidStudioProjects/cloudwalk/android/app/src/main/AndroidManifest.xml
-9        android:targetSdkVersion="28" />
-9-->/Users/ray/AndroidStudioProjects/cloudwalk/android/app/src/main/AndroidManifest.xml
+8-->/Users/ray/AndroidStudioProjects/coocon/android/app/src/main/AndroidManifest.xml
+9        android:targetSdkVersion="29" />
+9-->/Users/ray/AndroidStudioProjects/coocon/android/app/src/main/AndroidManifest.xml
 10
 11    <uses-permission android:name="android.permission.INTERNET" />
-11-->/Users/ray/AndroidStudioProjects/cloudwalk/android/app/src/main/AndroidManifest.xml:47:5-66
-11-->/Users/ray/AndroidStudioProjects/cloudwalk/android/app/src/main/AndroidManifest.xml:47:22-64
+11-->/Users/ray/AndroidStudioProjects/coocon/android/app/src/main/AndroidManifest.xml:47:5-66
+11-->/Users/ray/AndroidStudioProjects/coocon/android/app/src/main/AndroidManifest.xml:47:22-64
 12    <!-- Although the *SdkVersion is captured in gradle build files, this is required for non gradle builds -->
 13    <!-- <uses-sdk android:minSdkVersion="14" /> -->
 14    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
@@ -35,29 +35,29 @@
 23         FlutterApplication and put your custom class here.
 24    -->
 25    <application
-25-->/Users/ray/AndroidStudioProjects/cloudwalk/android/app/src/main/AndroidManifest.xml:8:5-46:19
+25-->/Users/ray/AndroidStudioProjects/coocon/android/app/src/main/AndroidManifest.xml:8:5-46:19
 26        android:name="io.flutter.app.FlutterApplication"
-26-->/Users/ray/AndroidStudioProjects/cloudwalk/android/app/src/main/AndroidManifest.xml:9:9-57
+26-->/Users/ray/AndroidStudioProjects/coocon/android/app/src/main/AndroidManifest.xml:9:9-57
 27        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
 27-->[androidx.core:core:1.1.0] /Users/ray/.gradle/caches/transforms-2/files-2.1/3aaf6e5219b7f981ec263df919098c6f/core-1.1.0/AndroidManifest.xml:24:18-86
 28        android:icon="@mipmap/ic_launcher"
-28-->/Users/ray/AndroidStudioProjects/cloudwalk/android/app/src/main/AndroidManifest.xml:11:9-43
-29        android:label="cloudwalk" >
-29-->/Users/ray/AndroidStudioProjects/cloudwalk/android/app/src/main/AndroidManifest.xml:10:9-34
+28-->/Users/ray/AndroidStudioProjects/coocon/android/app/src/main/AndroidManifest.xml:11:9-43
+29        android:label="cocoon" >
+29-->/Users/ray/AndroidStudioProjects/coocon/android/app/src/main/AndroidManifest.xml:10:9-31
 30        <activity
-30-->/Users/ray/AndroidStudioProjects/cloudwalk/android/app/src/main/AndroidManifest.xml:12:9-40:20
-31            android:name="com.example.cloudwalk.MainActivity"
-31-->/Users/ray/AndroidStudioProjects/cloudwalk/android/app/src/main/AndroidManifest.xml:13:13-41
+30-->/Users/ray/AndroidStudioProjects/coocon/android/app/src/main/AndroidManifest.xml:12:9-40:20
+31            android:name="com.example.cocoon.MainActivity"
+31-->/Users/ray/AndroidStudioProjects/coocon/android/app/src/main/AndroidManifest.xml:13:13-41
 32            android:configChanges="orientation|keyboardHidden|keyboard|screenSize|smallestScreenSize|locale|layoutDirection|fontScale|screenLayout|density|uiMode"
-32-->/Users/ray/AndroidStudioProjects/cloudwalk/android/app/src/main/AndroidManifest.xml:16:13-163
+32-->/Users/ray/AndroidStudioProjects/coocon/android/app/src/main/AndroidManifest.xml:16:13-163
 33            android:hardwareAccelerated="true"
-33-->/Users/ray/AndroidStudioProjects/cloudwalk/android/app/src/main/AndroidManifest.xml:17:13-47
+33-->/Users/ray/AndroidStudioProjects/coocon/android/app/src/main/AndroidManifest.xml:17:13-47
 34            android:launchMode="singleTop"
-34-->/Users/ray/AndroidStudioProjects/cloudwalk/android/app/src/main/AndroidManifest.xml:14:13-43
+34-->/Users/ray/AndroidStudioProjects/coocon/android/app/src/main/AndroidManifest.xml:14:13-43
 35            android:theme="@style/LaunchTheme"
-35-->/Users/ray/AndroidStudioProjects/cloudwalk/android/app/src/main/AndroidManifest.xml:15:13-47
+35-->/Users/ray/AndroidStudioProjects/coocon/android/app/src/main/AndroidManifest.xml:15:13-47
 36            android:windowSoftInputMode="adjustResize" >
-36-->/Users/ray/AndroidStudioProjects/cloudwalk/android/app/src/main/AndroidManifest.xml:18:13-55
+36-->/Users/ray/AndroidStudioProjects/coocon/android/app/src/main/AndroidManifest.xml:18:13-55
 37
 38            <!--
 39                 Specifies an Android theme to apply to this Activity as soon as
@@ -66,11 +66,11 @@
 42                 to determine the Window background behind the Flutter UI.
 43            -->
 44            <meta-data
-44-->/Users/ray/AndroidStudioProjects/cloudwalk/android/app/src/main/AndroidManifest.xml:23:13-26:17
+44-->/Users/ray/AndroidStudioProjects/coocon/android/app/src/main/AndroidManifest.xml:23:13-26:17
 45                android:name="io.flutter.embedding.android.NormalTheme"
-45-->/Users/ray/AndroidStudioProjects/cloudwalk/android/app/src/main/AndroidManifest.xml:24:15-70
+45-->/Users/ray/AndroidStudioProjects/coocon/android/app/src/main/AndroidManifest.xml:24:15-70
 46                android:resource="@style/NormalTheme" />
-46-->/Users/ray/AndroidStudioProjects/cloudwalk/android/app/src/main/AndroidManifest.xml:25:15-52
+46-->/Users/ray/AndroidStudioProjects/coocon/android/app/src/main/AndroidManifest.xml:25:15-52
 47            <!--
 48                 Displays an Android View that continues showing the launch screen
 49                 Drawable until Flutter paints its first frame, then this splash
@@ -79,21 +79,21 @@
 52                 Flutter's first frame.
 53            -->
 54            <meta-data
-54-->/Users/ray/AndroidStudioProjects/cloudwalk/android/app/src/main/AndroidManifest.xml:32:13-35:17
+54-->/Users/ray/AndroidStudioProjects/coocon/android/app/src/main/AndroidManifest.xml:32:13-35:17
 55                android:name="io.flutter.embedding.android.SplashScreenDrawable"
-55-->/Users/ray/AndroidStudioProjects/cloudwalk/android/app/src/main/AndroidManifest.xml:33:15-79
+55-->/Users/ray/AndroidStudioProjects/coocon/android/app/src/main/AndroidManifest.xml:33:15-79
 56                android:resource="@drawable/launch_background" />
-56-->/Users/ray/AndroidStudioProjects/cloudwalk/android/app/src/main/AndroidManifest.xml:34:15-61
+56-->/Users/ray/AndroidStudioProjects/coocon/android/app/src/main/AndroidManifest.xml:34:15-61
 57
 58            <intent-filter>
-58-->/Users/ray/AndroidStudioProjects/cloudwalk/android/app/src/main/AndroidManifest.xml:36:13-39:29
+58-->/Users/ray/AndroidStudioProjects/coocon/android/app/src/main/AndroidManifest.xml:36:13-39:29
 59                <action android:name="android.intent.action.MAIN" />
-59-->/Users/ray/AndroidStudioProjects/cloudwalk/android/app/src/main/AndroidManifest.xml:37:17-68
-59-->/Users/ray/AndroidStudioProjects/cloudwalk/android/app/src/main/AndroidManifest.xml:37:25-66
+59-->/Users/ray/AndroidStudioProjects/coocon/android/app/src/main/AndroidManifest.xml:37:17-68
+59-->/Users/ray/AndroidStudioProjects/coocon/android/app/src/main/AndroidManifest.xml:37:25-66
 60
 61                <category android:name="android.intent.category.LAUNCHER" />
-61-->/Users/ray/AndroidStudioProjects/cloudwalk/android/app/src/main/AndroidManifest.xml:38:17-76
-61-->/Users/ray/AndroidStudioProjects/cloudwalk/android/app/src/main/AndroidManifest.xml:38:27-74
+61-->/Users/ray/AndroidStudioProjects/coocon/android/app/src/main/AndroidManifest.xml:38:17-76
+61-->/Users/ray/AndroidStudioProjects/coocon/android/app/src/main/AndroidManifest.xml:38:27-74
 62            </intent-filter>
 63        </activity>
 64        <!--
@@ -101,38 +101,38 @@
 66             This is used by the Flutter tool to generate GeneratedPluginRegistrant.java
 67        -->
 68        <meta-data
-68-->/Users/ray/AndroidStudioProjects/cloudwalk/android/app/src/main/AndroidManifest.xml:43:9-45:33
+68-->/Users/ray/AndroidStudioProjects/coocon/android/app/src/main/AndroidManifest.xml:43:9-45:33
 69            android:name="flutterEmbedding"
-69-->/Users/ray/AndroidStudioProjects/cloudwalk/android/app/src/main/AndroidManifest.xml:44:13-44
+69-->/Users/ray/AndroidStudioProjects/coocon/android/app/src/main/AndroidManifest.xml:44:13-44
 70            android:value="2" />
-70-->/Users/ray/AndroidStudioProjects/cloudwalk/android/app/src/main/AndroidManifest.xml:45:13-30
+70-->/Users/ray/AndroidStudioProjects/coocon/android/app/src/main/AndroidManifest.xml:45:13-30
 71
 72        <service
-72-->[:firebase_auth] /Users/ray/AndroidStudioProjects/cloudwalk/build/firebase_auth/intermediates/library_manifest/release/AndroidManifest.xml:8:9-12:19
+72-->[:firebase_auth] /Users/ray/AndroidStudioProjects/coocon/build/firebase_auth/intermediates/library_manifest/release/AndroidManifest.xml:8:9-12:19
 73            android:name="com.google.firebase.components.ComponentDiscoveryService"
-73-->[:firebase_auth] /Users/ray/AndroidStudioProjects/cloudwalk/build/firebase_auth/intermediates/library_manifest/release/AndroidManifest.xml:8:18-89
+73-->[:firebase_auth] /Users/ray/AndroidStudioProjects/coocon/build/firebase_auth/intermediates/library_manifest/release/AndroidManifest.xml:8:18-89
 74            android:directBootAware="true"
 74-->[com.google.firebase:firebase-common:19.3.0] /Users/ray/.gradle/caches/transforms-2/files-2.1/9b577b23aff22aa6860c82994565ce51/jetified-firebase-common-19.3.0/AndroidManifest.xml:34:13-43
 75            android:exported="false" >
 75-->[com.google.firebase:firebase-auth:19.3.1] /Users/ray/.gradle/caches/transforms-2/files-2.1/82681f3c0761d655651a14f400b32223/firebase-auth-19.3.1/AndroidManifest.xml:35:13-37
 76            <meta-data
-76-->[:firebase_auth] /Users/ray/AndroidStudioProjects/cloudwalk/build/firebase_auth/intermediates/library_manifest/release/AndroidManifest.xml:9:13-11:85
+76-->[:firebase_auth] /Users/ray/AndroidStudioProjects/coocon/build/firebase_auth/intermediates/library_manifest/release/AndroidManifest.xml:9:13-11:85
 77                android:name="com.google.firebase.components:io.flutter.plugins.firebase.auth.FlutterFirebaseAuthRegistrar"
-77-->[:firebase_auth] /Users/ray/AndroidStudioProjects/cloudwalk/build/firebase_auth/intermediates/library_manifest/release/AndroidManifest.xml:10:17-124
+77-->[:firebase_auth] /Users/ray/AndroidStudioProjects/coocon/build/firebase_auth/intermediates/library_manifest/release/AndroidManifest.xml:10:17-124
 78                android:value="com.google.firebase.components.ComponentRegistrar" />
-78-->[:firebase_auth] /Users/ray/AndroidStudioProjects/cloudwalk/build/firebase_auth/intermediates/library_manifest/release/AndroidManifest.xml:11:17-82
+78-->[:firebase_auth] /Users/ray/AndroidStudioProjects/coocon/build/firebase_auth/intermediates/library_manifest/release/AndroidManifest.xml:11:17-82
 79            <meta-data
-79-->[:cloud_firestore] /Users/ray/AndroidStudioProjects/cloudwalk/build/cloud_firestore/intermediates/library_manifest/release/AndroidManifest.xml:9:13-11:85
+79-->[:cloud_firestore] /Users/ray/AndroidStudioProjects/coocon/build/cloud_firestore/intermediates/library_manifest/release/AndroidManifest.xml:9:13-11:85
 80                android:name="com.google.firebase.components:io.flutter.plugins.firebase.firestore.FlutterFirebaseFirestoreRegistrar"
-80-->[:cloud_firestore] /Users/ray/AndroidStudioProjects/cloudwalk/build/cloud_firestore/intermediates/library_manifest/release/AndroidManifest.xml:10:17-134
+80-->[:cloud_firestore] /Users/ray/AndroidStudioProjects/coocon/build/cloud_firestore/intermediates/library_manifest/release/AndroidManifest.xml:10:17-134
 81                android:value="com.google.firebase.components.ComponentRegistrar" />
-81-->[:cloud_firestore] /Users/ray/AndroidStudioProjects/cloudwalk/build/cloud_firestore/intermediates/library_manifest/release/AndroidManifest.xml:11:17-82
+81-->[:cloud_firestore] /Users/ray/AndroidStudioProjects/coocon/build/cloud_firestore/intermediates/library_manifest/release/AndroidManifest.xml:11:17-82
 82            <meta-data
-82-->[:firebase_core] /Users/ray/AndroidStudioProjects/cloudwalk/build/firebase_core/intermediates/library_manifest/release/AndroidManifest.xml:9:13-11:85
+82-->[:firebase_core] /Users/ray/AndroidStudioProjects/coocon/build/firebase_core/intermediates/library_manifest/release/AndroidManifest.xml:9:13-11:85
 83                android:name="com.google.firebase.components:io.flutter.plugins.firebase.core.FlutterFirebaseCoreRegistrar"
-83-->[:firebase_core] /Users/ray/AndroidStudioProjects/cloudwalk/build/firebase_core/intermediates/library_manifest/release/AndroidManifest.xml:10:17-124
+83-->[:firebase_core] /Users/ray/AndroidStudioProjects/coocon/build/firebase_core/intermediates/library_manifest/release/AndroidManifest.xml:10:17-124
 84                android:value="com.google.firebase.components.ComponentRegistrar" />
-84-->[:firebase_core] /Users/ray/AndroidStudioProjects/cloudwalk/build/firebase_core/intermediates/library_manifest/release/AndroidManifest.xml:11:17-82
+84-->[:firebase_core] /Users/ray/AndroidStudioProjects/coocon/build/firebase_core/intermediates/library_manifest/release/AndroidManifest.xml:11:17-82
 85            <meta-data
 85-->[com.google.firebase:firebase-auth:19.3.1] /Users/ray/.gradle/caches/transforms-2/files-2.1/82681f3c0761d655651a14f400b32223/firebase-auth-19.3.1/AndroidManifest.xml:36:13-38:85
 86                android:name="com.google.firebase.components:com.google.firebase.auth.FirebaseAuthRegistrar"
@@ -209,7 +209,7 @@
 124-->[com.google.firebase:firebase-common:19.3.0] /Users/ray/.gradle/caches/transforms-2/files-2.1/9b577b23aff22aa6860c82994565ce51/jetified-firebase-common-19.3.0/AndroidManifest.xml:26:9-30:39
 125            android:name="com.google.firebase.provider.FirebaseInitProvider"
 125-->[com.google.firebase:firebase-common:19.3.0] /Users/ray/.gradle/caches/transforms-2/files-2.1/9b577b23aff22aa6860c82994565ce51/jetified-firebase-common-19.3.0/AndroidManifest.xml:27:13-77
-126            android:authorities="com.example.cloudwalk.firebaseinitprovider"
+126            android:authorities="com.example.cocoon.firebaseinitprovider"
 126-->[com.google.firebase:firebase-common:19.3.0] /Users/ray/.gradle/caches/transforms-2/files-2.1/9b577b23aff22aa6860c82994565ce51/jetified-firebase-common-19.3.0/AndroidManifest.xml:28:13-72
 127            android:exported="false"
 127-->[com.google.firebase:firebase-common:19.3.0] /Users/ray/.gradle/caches/transforms-2/files-2.1/9b577b23aff22aa6860c82994565ce51/jetified-firebase-common-19.3.0/AndroidManifest.xml:29:13-37

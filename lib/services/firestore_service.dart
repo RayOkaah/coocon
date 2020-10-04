@@ -31,9 +31,8 @@ class FirestoreService {
   Future createBookmark(Results story) async {
     try {
       final FirebaseAuth firebaseAuth = FirebaseAuth.instance;
-      final user = await firebaseAuth.currentUser;
-      print('katu :'+story.toString());
-      await  FirebaseFirestore.instance.collection('stories').doc(story.url).set(story.toJson());
+      //final user = await firebaseAuth.currentUser;
+      //await  FirebaseFirestore.instance.collection('stories').doc(story.url).set(story.toJson());
     } catch (e) {
       return e.message;
     }
